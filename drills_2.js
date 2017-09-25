@@ -35,7 +35,7 @@ function decode(message) {
   const eachWord = message.split(' ');
   // for loop to capture each first letter and check code rule
   for (let i = 0; i < eachWord.length; i++) {
-    //Build each condition of the code cracker
+    // Build each condition of the code cracker
     if (eachWord[i][0] === 'a') {
       arr.push(eachWord[i][2-1]);  
     } else if (eachWord[i][0] === 'b') {
