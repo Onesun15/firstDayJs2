@@ -28,7 +28,7 @@
 
 // Cracking the code
 
-<<<<<<< HEAD
+
 // function decode(message) {
 //   // Create an array to capture the char number
 //   const arr = [];
@@ -56,49 +56,74 @@
 // decode('craft block argon meter bells brown croon droop');
 
 
-//How Many Days in a Month
+// How Many Days in a Month
 
-function daysPerMonth (month) {
-  switch (month) {
-  case 'January':
-    console.log('January has 31 days');
-    break;
-  case 'February':
-    console.log('February has 28 days');
-    break;
-  case 'March':
-    console.log('March has 31 days');
-    break;
-  case 'April':
-    console.log('April has 30 days');
-    break;
-  case 'May':
-    console.log('May has 31 days');
-    break;
-  case 'June':
-    console.log('June has 30 days');
-    break;
-  case 'July':
-    console.log('July has 31 days');
-    break;
-  case 'August':
-    console.log('August has 31 days');
-    break;
-  case 'September':
-    console.log('September has 30 days');
-    break;
-  case 'October':
-    console.log('October has 31 days');
-    break;
-  case 'November':
-    console.log('November has 30 days');
-    break;
-  case 'December':
-    console.log('December has 31 days');
-            
+// function daysPerMonth (month) {
 
-  }
+//   switch (month) {
+//   case 'January':
+//     console.log('January has 31 days');
+//     break;
+//   case 'February':
+//     console.log('February has 28 days');
+//     break;
+//   case 'March':
+//     console.log('March has 31 days');
+//     break;
+//   case 'April':
+//     console.log('April has 30 days');
+//     break;
+//   case 'May':
+//     console.log('May has 31 days');
+//     break;
+//   case 'June':
+//     console.log('June has 30 days');
+//     break;
+//   case 'July':
+//     console.log('July has 31 days');
+//     break;
+//   case 'August':
+//     console.log('August has 31 days');
+//     break;
+//   case 'September':
+//     console.log('September has 30 days');
+//     break;
+//   case 'October':
+//     console.log('October has 31 days');
+//     break;
+//   case 'November':
+//     console.log('November has 30 days');
+//     break;
+//   case 'December':
+//     console.log('December has 31 days');
+//   }
+// }
+
+// daysPerMonth('December');
+
+// Rock, Paper, Scissors
+
+function RockPaperScissors(userChoice) {
+  const computer = 1 + Math.floor((Math.random()*3));
+  const rock = 1;
+  const paper = 2;
+  const scissors = 3;
+
+  if (userChoice === computer) {
+    console.log('Its a tie');
+  } else if (userChoice === 1 && computer === 2) {
+    (console.log('Computer Wins'));
+  } else if (userChoice === 2 && computer === 1) {
+    (console.log('You Win!'));
+  } else if (userChoice === 2 && computer === 3) {
+    (console.log('Computer Wins!'));
+  } else if (userChoice === 3 && computer === 2) {
+    (console.log('You Win!'));
+  } else if (userChoice === 3 && computer === 1) {
+    (console.log('Computer Wins!'));
+  } else if (userChoice === 1 && computer === 3) {
+    (console.log('You Win!'));
+  } 
 }
 
-daysPerMonth('December');
-
+RockPaperScissors(2);
