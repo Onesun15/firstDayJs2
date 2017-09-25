@@ -28,6 +28,7 @@
 
 // Cracking the code
 
+<<<<<<< HEAD
 // function decode(message) {
 //   // Create an array to capture the char number
 //   const arr = [];
@@ -95,6 +96,7 @@ function daysPerMonth (month) {
   case 'December':
     console.log('December has 31 days');
             
+
   }
 }
 
