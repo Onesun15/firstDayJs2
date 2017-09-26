@@ -10,6 +10,7 @@
 
 // jediName('Beyonce', 'Knowles');
 
+
 // To infinity..
 
 // function beyond(num) {
@@ -17,7 +18,7 @@
 //     console.log('And beyond'); 
 //   } else if (Number.isFinite(num) && num > 0) {
 //     console.log('To infinity');
-//   } else if   (Number.isFinite(num) && num < 0) {
+//   } else if (Number.isFinite(num) && num < 0) {
 //     console.log('To negative infinity');
 //   } else if (num === 0) {
 //     console.log('Staying home');
@@ -26,8 +27,8 @@
 
 // beyond(-3);
 
-// Cracking the code
 
+// Cracking the code
 
 // function decode(message) {
 //   // Create an array to capture the char number
@@ -100,6 +101,7 @@
 // }
 
 // daysPerMonth('December');
+
 
 // Rock, Paper, Scissors
 
