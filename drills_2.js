@@ -111,17 +111,17 @@ function RockPaperScissors(userChoice) {
 
   if (userChoice === computer) {
     console.log('Its a tie');
-  } else if (userChoice === 1 && computer === 2) {
+  } else if (userChoice === rock && computer === paper) {
     (console.log('Computer Wins'));
-  } else if (userChoice === 2 && computer === 1) {
+  } else if (userChoice === paper && computer === rock) {
     (console.log('You Win!'));
-  } else if (userChoice === 2 && computer === 3) {
+  } else if (userChoice === paper && computer === scissors) {
     (console.log('Computer Wins!'));
-  } else if (userChoice === 3 && computer === 2) {
+  } else if (userChoice === scissors && computer === paper) {
     (console.log('You Win!'));
-  } else if (userChoice === 3 && computer === 1) {
+  } else if (userChoice === scissors && computer === rock) {
     (console.log('Computer Wins!'));
-  } else if (userChoice === 1 && computer === 3) {
+  } else if (userChoice === rock && computer === scissors) {
     (console.log('You Win!'));
   } 
 }
